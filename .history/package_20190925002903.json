@@ -1,6 +1,6 @@
 {
-  "name": "vasion-vue-formio",
-  "version": "0.0.3",
+  "name": "vue-formio",
+  "version": "3.0.2",
   "description": "A vue.js renderer for form.io forms.",
   "main": "lib/index",
   "typeings": "lib/index",
@@ -21,12 +21,12 @@
   "author": "Randall Knutson <randall@form.io>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/PrinterLogic/formio.js"
+    "url": "https://github.com/formio/vue-formio/issues"
   },
   "homepage": "https://github.com/formio/vue-formio#readme",
   "dependencies": {
     "@types/node": "^4.0.36",
-    "vasion-formiojs": "0.0.2",
+    "vasion-vasion-formiojs": "0.0.2",
     "vue": "^2.5.13",
     "vue-class-component": "^6.1.2",
     "vue-expose-inject": "^0.3.1",

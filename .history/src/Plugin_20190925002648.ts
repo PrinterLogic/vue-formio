@@ -1,13 +1,13 @@
 import Form from './components/Form';
 import { Provider } from './Provider';
-import vasion-formiojs from 'vasion-formiojs';
+import formiojs from 'formiojs';
 import Vue from 'vue';
 
 // Provide a plugin by default that will register all components.
 export class Plugin {
   // Vue Plugin
   static install (Vue: Vue, { providers, store, router }: { providers: Provider[], store: any, router: any }) {
-    // Vue.$formio = vasion-formiojs;
+    // Vue.$formio = formiojs;
 
     // Vue.component('Form', Form);
 

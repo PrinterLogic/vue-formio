@@ -3,6 +3,6 @@ declare module '*.vue' {
   export default Vue;
 }
 
-declare module 'vasion-formiojs';
+declare module 'formiojs';
 
 declare module 'vue-expose-inject';

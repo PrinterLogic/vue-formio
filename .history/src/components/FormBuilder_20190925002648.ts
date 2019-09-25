@@ -1,11 +1,11 @@
 /* globals console, Promise */
 import Vue from 'vue';
 import { Component, Prop, Watch } from 'vue-property-decorator'
-import FormBuilder from 'vasion-formiojs/FormBuilder';
-import AllComponents from 'vasion-formiojs/components';
-import Components from 'vasion-formiojs/components/Components';
+import FormBuilder from 'formiojs/FormBuilder';
+import AllComponents from 'formiojs/components';
+import Components from 'formiojs/components/Components';
 Components.setComponents(AllComponents);
-import Formio from 'vasion-formiojs/Formio';
+import Formio from 'formiojs/Formio';
 /*
  * This is a duplicate of Formio Renderer for now. Once the formio.js builder is complete this will be update to mimic it.
  */

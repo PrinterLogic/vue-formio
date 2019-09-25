@@ -1,11 +1,11 @@
 /* globals console, Promise */
 import Vue from 'vue';
 import { Component, Prop, Watch } from 'vue-property-decorator';
-import AllComponents from 'vasion-formiojs/components';
-import Components from 'vasion-formiojs/components/Components';
+import AllComponents from 'formiojs/components';
+import Components from 'formiojs/components/Components';
 Components.setComponents(AllComponents);
-import Form from 'vasion-formiojs/Form';
-import Formio from 'vasion-formiojs/Formio';
+import Form from 'formiojs/Form';
+import Formio from 'formiojs/Formio';
 
 @Component
 export default class extends Vue {

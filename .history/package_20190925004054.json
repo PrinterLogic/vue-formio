@@ -1,6 +1,6 @@
 {
   "name": "vasion-vue-formio",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "description": "A vue.js renderer for form.io forms.",
   "main": "lib/index",
   "typeings": "lib/index",
