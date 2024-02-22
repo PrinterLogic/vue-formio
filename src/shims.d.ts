@@ -1,8 +1,9 @@
 declare module '*.vue' {
-  import Vue from 'vue';
-  export default Vue;
+  import { defineComponent } from "vue";
+  const Component: ReturnType<typeof defineComponent>;
+  export default Component;
 }
 
-declare module 'vasion-formiojs';
+declare module 'formiojs';
 
-declare module 'vue-expose-inject';
+declare module 'formiojs/Formio';

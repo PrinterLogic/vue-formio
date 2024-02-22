@@ -3,16 +3,16 @@
  */
 
 import Vue from "vue";
-import vasion-formiojs from 'vasion-formiojs';
+import formiojs from 'formiojs';
 
 declare module "vue/types/vue" {
   interface Vue {
-    $formio: vasion-formiojs;
+    $formio: formiojs;
   }
 }
 
 declare module "vue/types/options" {
   interface ComponentOptions<V extends Vue> {
-    formio?: vasion-formiojs;
+    formio?: formiojs;
   }
 }

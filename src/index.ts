@@ -1,3 +1,5 @@
+import Formio from 'formiojs';
+import * as components from './components';
 export * from './components';
-export * from './Provider';
-export * from './Plugin';
+
+export {Components, Formio, Utils, Templates} from 'formiojs';

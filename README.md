@@ -78,7 +78,7 @@ HTML inside of Vue template file:
 ```
 <template>
   <div id="app">
-    <formbuilder v-bind:form="{display: 'form'}" v-bind:options="{}" v-on:change="(schema) => console.log(schema)"></formio>
+    <formbuilder v-bind:form="{display: 'form'}" v-bind:options="{}" v-on:change="(schema) => console.log(schema)"></formbuilder>
   </div>
 </template>
 ```
@@ -93,5 +93,24 @@ Javascript inside of Vue template file.
   }
 </script>
 ```
+
+## Form Actions
+
+Get access to the form instance
+```
+<template>
+  <div id="app">
+    <formio ref="formioForm"></formio>
+  </div>
+</template>
+```
+
+Run a method
+```
+this.$refs.formioForm.formio.submit()
+```
+
+All methods are available here https://help.form.io/developers/form-renderer#form-methods 
+
 ## License
 Released under the [MIT License](http://www.opensource.org/licenses/MIT).

@@ -1,5 +1,7 @@
+dist
 .bower.json
 *.log
 node_modules
 lib
+.dccache
 .idea
