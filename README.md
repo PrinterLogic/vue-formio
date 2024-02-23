@@ -10,7 +10,7 @@ A [Vue.js](http://vue.js/) component for rendering out forms based on the [Form.
 [Vite](https://vitejs.dev/).
 
 ```shell
-npm install @formio/vue@github:PrinterLogic/vue-formio
+npm install @formio/vue@github:PrinterLogic/vue-formio --save
 ```
 
 ## Basic Usage
